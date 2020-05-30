@@ -18,12 +18,11 @@ public class ConsumidoraConta extends JFrame {
     public ConsumidoraConta() {
         btnConsultar.addActionListener(actionEvent -> {
             try {
-                /*
+
                 ws.ServicoContaService servico = new ws.ServicoContaService();
                 ws.ServicoConta webservice = servico.getServicoConta();
-                 */
 
-                //List<String> resultado = (List<String>) webservice.consultarDadosConta(Integer.parseInt(txtldConta.getText()));
+                List<String> resultado = (List<String>) webservice.consultarDadosConta(Integer.parseInt(txtldConta.getText()));
 
                 List<String> resultado = new ArrayList<>();
 
